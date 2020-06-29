@@ -1,1 +1,1 @@
-Creating a Linear Regression model without sklearn.
+Creating a basic Linear Regression class
