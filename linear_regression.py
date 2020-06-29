@@ -17,7 +17,7 @@ class LinearRegression:
         for i in range(epochs):
             self.hyp_vec = X_train*self.theta1 + self.theta0
             self.J = sum((self.hyp_vec - y_train)**2)
-            #print('===== Cost : {} ====== Epoch : {} ====='.format(self.J, i+1))
+            print('===== Cost : {} ====== Epoch : {} ====='.format(self.J, i+1))
             self.d0 = self.frac * learning_rate * sum(self.hyp_vec - y_train)
             self.d1 = self.frac * learning_rate * np.dot((self.hyp_vec - y_train), X_train)
             self.theta0 -= self.d0
