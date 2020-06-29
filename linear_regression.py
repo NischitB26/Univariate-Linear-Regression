@@ -65,9 +65,3 @@ ax2.set_title('Formula Based Model')
 
 plt.legend()
 plt.show()
-
-
-
-
-
-
