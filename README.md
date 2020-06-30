@@ -1,1 +1,1 @@
-Creating a basic Linear Regression class and fitting data that makes no sense.
+Creating a basic Linear Regression class using python & numpy and fitting data that makes no sense.
